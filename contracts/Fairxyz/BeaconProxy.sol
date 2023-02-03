@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.17;
+pragma solidity >=0.6.0<0.9.0;
+// pragma solidity 0.8.17;
 
 import "@openzeppelin/contracts/proxy/beacon/IBeacon.sol";
 import "@openzeppelin/contracts/proxy/Proxy.sol";
