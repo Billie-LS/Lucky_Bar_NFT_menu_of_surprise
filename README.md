@@ -1,7 +1,7 @@
 ![solidity1](Images/solidity1.png)
 # **Columbia University Engineering, New York FinTech Bootcamp** 
 # **August 2022 Cohort**
-# **Module 20, Challenge - building smart contracts to automate FinTech institutional financial processes and features.**
+# **Capstone - building smart contracts to automate FinTech institutional financial processes and features.**
 
 
 Objective - to automate the creation of joint savings accounts. 
@@ -42,10 +42,12 @@ ___
 
 ### **Dependencies**
 
-This challenge leverages Solidity version 0.5.0 with the following IDE (Integrated Development Environment):
+This challenge leverages Solidity with the following to compile and deploy the decentralized application (dapp):
 
-* [REMIX_IDE](https://remix-project.org/) - a no-setup tool with a GUI for developing smart contracts.
-
+* [Remix Ethereum IDE](https://remix-project.org/) - Remix IDE, is a no-setup tool with a GUI for developing smart contracts.
+* [Ganache](https://trufflesuite.com/ganache/) - Quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
+* [MetaMask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps
+* [streamlit] (https://) - 
 ___
 
 ### **Hardware used for development**
@@ -80,7 +82,7 @@ git version 2.37.2
 In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/Eth_host_and_Save.git
+git clone git@github.com:Billie-LS/Lucky_Bar_NFT_menu_of_surprise.git
 ```
 
 ---
@@ -103,15 +105,29 @@ Deploy
 ```
 ___
 
+To use the smart contract, follow the key steps described as below:
+
+- Clone the repository and load ***SOMETHING*** and ***SOMETHING.sol*** in Remix IDE. You may see the web console view as:
+
+![Smart Contract](Images/App_Usage.png)
+
+- While deploying, select Remix VM (London) as a sandbox environment.
+
+- You may compile and deploy the smart contract to use it further.
+
+- In order to integrate Remix IDE with MetaMask and MetaMask with Ganache, you may an article [here](https://www.geeksforgeeks.org/how-to-set-up-ganche-with-metamask/).
+
+- Choose 'Injected Provider - MetaMask' as a sandbox blockchain Environment to connect Remix IDE with MetaMask. 
+
 ## **Version control**
 
 Version control can be reviewed at:
 
 ```python
-https://github.com/Billie-LS/Eth_host_and_Save
+https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise
 ```
 
-[repository](https://github.com/Billie-LS/Eth_host_and_Save)
+[repository](https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise)
 
 
 ___
