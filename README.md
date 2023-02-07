@@ -40,14 +40,21 @@ ___
 ___
 
 
-### **Dependencies**
+### **Dependencies & Applications**
 
-This challenge leverages Solidity with the following to compile and deploy the decentralized application (dapp):
+This project leverages Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with Solidity and the following packages to compile and deploy the decentralized application (dapp):
+
+* [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
+
+* [os](https://docs.python.org/3/library/os.html) - module provides a portable way of using operating system dependent functionality.
 
 * [Remix Ethereum IDE](https://remix-project.org/) - Remix IDE, is a no-setup tool with a GUI for developing smart contracts.
+
 * [Ganache](https://trufflesuite.com/ganache/) - Quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
+
 * [MetaMask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps
-* [streamlit] (https://) - 
+
+* [streamlit](https://pypi.org/project/streamlit/) - an all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
 ___
 
 ### **Hardware used for development**
@@ -153,9 +160,6 @@ Alexandra Paiz
 Brock Denton
     [LinkedIn](https://www.linkedin.com/in/brock-denton-7850221a7/)
     [@GitHub](https://github.com/Brock-Denton)
-
-
-
 
 ### **BootCamp lead instructor**
 
