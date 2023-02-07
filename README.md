@@ -132,11 +132,30 @@ https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise
 
 ___
 
-### **Author**
+### **Contributors**
+
+Dinesh Mandal
+    [LinkedIn](https://www.linkedin.com/in/dineshmandal/)
+    [@GitHub](https://github.com/dinesh-m)
 
 Loki 'billie' Skylizard
     [LinkedIn](https://www.linkedin.com/in/l-s-6a0316244)
     [@GitHub](https://github.com/Billie-LS)
+
+Galiya Khusniyarova
+    [LinkedIn](https://www.linkedin.com/in/galiya-khusniyarova-3470a6110/)
+    [@GitHub](https://github.com/galiyaKhusniyarova)
+
+Alexandra Paiz
+    [LinkedIn](https://www.linkedin.com/in/alexandra-paiz-5b28b6241/)
+    [@GitHub](https://github.com/alexandrapaiz)
+
+Brock Denton
+    [LinkedIn](https://www.linkedin.com/in/brock-denton-7850221a7/)
+    [@GitHub](https://github.com/Brock-Denton)
+
+
+
 
 ### **BootCamp lead instructor**
 
@@ -162,7 +181,7 @@ ___
 
 MIT License
 
-Copyright (c) [2022] [Loki 'billie' Skylizard]
+Copyright (c) [2022] [Dinesh Mandal, Loki 'billie' Skylizard, Galiya Khusniyarova, Alexandra Paiz, Brock Denton]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
