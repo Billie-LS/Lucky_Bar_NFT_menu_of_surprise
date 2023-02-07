@@ -39,7 +39,6 @@ ___
 ## **Technologies**
 ___
 
-
 ### **Dependencies & Applications**
 
 This project leverages Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with Solidity and the following packages to compile and deploy the decentralized application (dapp):
@@ -47,6 +46,28 @@ This project leverages Python version 3.9.13 packaged by conda-forge | (main, Ma
 * [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
 
 * [os](https://docs.python.org/3/library/os.html) - module provides a portable way of using operating system dependent functionality.
+
+* [pandas](https://pandas.pydata.org/docs/) - Software library written for the python programming language for data manipulation and analysis.
+
+* [Path](https://pandas.pydata.org/docs/reference/api/pandas.concat.html) - from pathlib - Object-oriented filesystem paths, Path instantiates a concrete path for the platform the code is running on.
+
+* [getenv](https://docs.python.org/3/library/os.html?highlight=os%20getenv#os.getenv) - From 'os', return the value of the environment variable key if it exists, or default if it doesn’t.
+
+* [dot_env](https://pypi.org/project/python-dotenv/) - Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.
+
+* [csv](https://docs.python.org/3/library/csv.html) - a module implements classes to read and write tabular data in CSV format.
+
+* [writer](https://docs.python.org/3/library/csv.html) - from csv, a writer object responsible for converting the user’s data into delimited strings on the given file-like object.
+
+* [json](https://docs.python.org/3/library/json.html#module-json) - JSON (JavaScript Object Notation) is a lightweight data interchange format inspired by JavaScript object literal syntax; exposes an API familiar to users of the standard library marshal and pickle modules.
+
+* [Web3](https://web3py.readthedocs.io/en/v5/quickstart.html) - a collection of modules which contain specific functionality for the ethereum ecosystem.
+
+* [Requests](https://pypi.org/project/requests/) - a simple module/HTTP library which allows transmission of HTTP requests using Python; returns a Response Object with complete response data (content, encoding, status, etc).
+
+* [time](https://docs.python.org/3/library/time.html) - a module provides various time-related functions.
+
+* [Random](https://docs.python.org/3/library/random.html) - a module in Python defines a series of functions for generating or manipulating random integers. Python random() is a pseudo-random number generator function that generates a random float number between 0.0 and 1.0, is used by functions in the random module.
 
 * [Remix Ethereum IDE](https://remix-project.org/) - Remix IDE, is a no-setup tool with a GUI for developing smart contracts.
 
