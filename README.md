@@ -50,9 +50,9 @@ This project leverages Python version 3.9.13 packaged by conda-forge | (main, Ma
 
 * [Remix Ethereum IDE](https://remix-project.org/) - Remix IDE, is a no-setup tool with a GUI for developing smart contracts.
 
-* [Ganache](https://trufflesuite.com/ganache/) - Quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
+* [Ganache](https://trufflesuite.com/ganache/) - a private Ethereum(ETH) blockchain environment that enables emulation of the ETH blockchain to interact with smart contracts in a private blockchain
 
-* [MetaMask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps
+* [MetaMask](https://metamask.io/) - a software cryptocurrency self-custodial wallet and gateway to interact with the Ethereum(ETH) blockchain and ETH blockchain decentralized applications(dapps).
 
 * [streamlit](https://pypi.org/project/streamlit/) - an all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
 ___
