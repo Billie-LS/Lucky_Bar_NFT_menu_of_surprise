@@ -2,14 +2,14 @@ import pandas as pd
 from pathlib import Path
 
 # Fetch nft uri
-def nft_uri(nft_index):
+def nft_uri(nft_index) -> str:
     """Method to fetch nft uri from LuckyBar nft_store.csv
     
     Args:
-        nft_index: nft index number value
+        nft_index(int): nft index number value
     
     Returns:
-        A nft uri corresponding to the index number
+        str: A nft uri corresponding to the index number
 
     """
     try:
@@ -24,14 +24,14 @@ def nft_uri(nft_index):
         return (f'An error occured while fetching the nft uri')
 
 # Return raw dataframe of nft_store
-def nft_df():
+def nft_df() -> pd.DataFrame:
     """Method to return nft uri list as a dataframe from LuckyBar nft_store.csv
     
     Args:
         None
     
     Returns:
-        DataF containing nft id/uri
+        pd.DataFrame: DataF containing nft id/uri
 
     """
     try:
