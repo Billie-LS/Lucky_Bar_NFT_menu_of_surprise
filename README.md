@@ -1,12 +1,12 @@
 ![pinacolada](nftsLuckybar/header.png)
-# **Columbia University Engineering, New York FinTech Bootcamp** 
-# **August 2022 Cohort**
-# **Capstone - building smart contracts to automate FinTech institutional financial processes and features.**
+# **Columbia University Engineering, New York FinTech Bootcamp - August 2022 Cohort** 
+
+# **Capstone - **
 
 
-Objective - to automate the creation of joint savings accounts. 
+Objective -  
 
-Scenario - Fintech startup new hire, tasked with automating creation of joint savings accounts; will accept two addresses, which will possess account control.
+Scenario - 
 
 Product - Solidity smart contract that accepts two user addresses. 
 > Addresses will be able to control a joint savings account. 
@@ -184,6 +184,7 @@ Brock Denton
     [LinkedIn](https://www.linkedin.com/in/brock-denton-7850221a7/)
     [@GitHub](https://github.com/Brock-Denton)
 
+
 ### **BootCamp lead instructor**
 
 Vinicio De Sola
@@ -201,9 +202,9 @@ ___
 
 ### **Additional references and or resources utilized**
 
-Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant [opensea](https://opensea.io/collection/flyfish-club/activity)
+[opensea](https://opensea.io/collection/flyfish-club/activity)  Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant.
 
-Support for type hints [typing](https://docs.python.org/3/library/typing.html)
+[typing](https://docs.python.org/3/library/typing.html)  Support for type hints.
 
 ## **License**
 
