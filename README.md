@@ -1,4 +1,4 @@
-![solidity1](Images/solidity1.png)
+![solidity1pinacolada](nftsLuckybar/pina.png)
 # **Columbia University Engineering, New York FinTech Bootcamp** 
 # **August 2022 Cohort**
 # **Capstone - building smart contracts to automate FinTech institutional financial processes and features.**
