@@ -201,8 +201,9 @@ ___
 
 ### **Additional references and or resources utilized**
 
-[st.success](https://docs.streamlit.io/library/api-reference/status/st.success)
-[opensea](https://opensea.io/collection/flyfish-club/activity)
+Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant [opensea](https://opensea.io/collection/flyfish-club/activity)
+
+Support for type hints [typing](https://docs.python.org/3/library/typing.html)
 
 ## **License**
 
