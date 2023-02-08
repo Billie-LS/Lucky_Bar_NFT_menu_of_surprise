@@ -202,8 +202,8 @@ ___
 ### **Additional references and or resources utilized**
 
 [st.success](https://docs.streamlit.io/library/api-reference/status/st.success)
+[opensea](https://opensea.io/collection/flyfish-club/activity)
 
-___
 ## **License**
 
 MIT License
