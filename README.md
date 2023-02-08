@@ -53,7 +53,7 @@ This project leverages Python version 3.9.13 packaged by conda-forge | (main, Ma
 
 * [getenv](https://docs.python.org/3/library/os.html?highlight=os%20getenv#os.getenv) - From 'os', return the value of the environment variable key if it exists, or default if it doesn’t.
 
-* [dot_env](https://pypi.org/project/python-dotenv/) - Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.
+* [dotenv](https://pypi.org/project/python-dotenv/) - Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.
 
 * [csv](https://docs.python.org/3/library/csv.html) - a module implements classes to read and write tabular data in CSV format.
 
