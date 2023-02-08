@@ -76,6 +76,8 @@ This project leverages Python version 3.9.13 packaged by conda-forge | (main, Ma
 * [MetaMask](https://metamask.io/) - a software cryptocurrency self-custodial wallet and gateway to interact with the Ethereum(ETH) blockchain and ETH blockchain decentralized applications(dapps).
 
 * [streamlit](https://pypi.org/project/streamlit/) - an all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
+  
+* [OpenZeppelin](https://www.openzeppelin.com/contracts) - an open-source framework to build secure smart contracts; provides security products to build, automate, and operate decentralized applications.
 ___
 
 ### **Hardware used for development**
