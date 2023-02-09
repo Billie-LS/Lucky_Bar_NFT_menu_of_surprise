@@ -1,4 +1,4 @@
-![pinacolada](nftsLuckybar/header.png)
+![pinacolada](images/header.png)
 # **Columbia University Engineering, New York FinTech Bootcamp - August 2022 Cohort** 
 
 # **Capstone - **
