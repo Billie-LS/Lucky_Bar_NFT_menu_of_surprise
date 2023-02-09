@@ -117,6 +117,26 @@ git clone git@github.com:Billie-LS/Lucky_Bar_NFT_menu_of_surprise.git
 ```
 
 ---
+## **Usage ai Lucky Bar - Chat GPT**
+
+Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initialize Remix Online IDE.  Then load the application from the project folder where you've installed the application:
+
+```python
+initiate the Solidity Compiler
+```
+
+In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment
+```python
+Deploy & Run Transactions 
+```
+
+In the Remix IDE, Click the Deploy button to deploy the smart contract
+```python
+Deploy 
+```
+___
+
+---
 ## **Usage**
 
 Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initialize Remix Online IDE.  Then load the application from the project folder where you've installed the application:
