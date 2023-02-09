@@ -1,7 +1,8 @@
+# **Lucky Bar NFT menu of surprise!**
 ![pinacolada](images/header.png)
-# **Columbia University Engineering, New York FinTech Bootcamp - August 2022 Cohort** 
+# **Columbia University Engineering, New York FinTech Bootcamp - August 2022 Cohort Capstone** 
 
-# **Capstone - Lucky Bar NFT menu of surprise!**
+
 <img src="images/luckyrafleticket.png" width="300">
 
 Objective -  
