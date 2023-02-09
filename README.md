@@ -2,7 +2,7 @@
 # **Columbia University Engineering, New York FinTech Bootcamp - August 2022 Cohort** 
 
 # **Capstone - Lucky Bar NFT menu of surprise!**
-![NFTs](images/raffle.png)
+<img src="images/luckyrafleticket.png" width="300">
 
 Objective -  
 
