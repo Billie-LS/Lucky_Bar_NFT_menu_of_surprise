@@ -14,7 +14,7 @@ Product - Solidity smart contract that accepts two user addresses.
 > Features will consist of the ability to deposit and withdraw funds from the account.
 
  
-![Ether](Images/Ether.png)
+![NFTs](images/NFTs.png)
 
 ### Product 
 
