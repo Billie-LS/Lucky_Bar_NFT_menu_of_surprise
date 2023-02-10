@@ -248,6 +248,8 @@ ___
 
 [typing](https://docs.python.org/3/library/typing.html)  Support for type hints.
 
+___
+
 ## **License**
 
 MIT License
