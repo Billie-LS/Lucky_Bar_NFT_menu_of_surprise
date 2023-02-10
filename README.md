@@ -125,6 +125,11 @@ The ai generated images with get exported to the nft_stores.csv file.
 
 These are the user prompts: 
 
+<img src="images/user_input_dalle.png" width="500">
+
+
+After answeing the prompts, the AI generated image will be stored in the nft_stores.csv file in the same folder.
+
 Please keep in mind that “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta versions, restaurants will be able to buy ownership of the NFTs they create.
 
 
@@ -138,8 +143,13 @@ streamlit run ai_bartender.py
 
 Restaurant customers can press a button to get an NFT from the restaurant's nft_stores.csv.
 
+<img src="images/buttonclick.png" width="500">
+<img src="images/ai_image_streamlit.png." width="500">
+
 
 After, the customer can chat with the AI and get a funny response. To make an order, the user inputs in the textbox as shown below.
+<img src="images/user_order_ai.png." width="500">
+
 
 ---
 ## **Usage**
