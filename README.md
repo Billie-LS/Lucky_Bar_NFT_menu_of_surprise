@@ -117,24 +117,29 @@ git clone git@github.com:Billie-LS/Lucky_Bar_NFT_menu_of_surprise.git
 ```
 
 ---
-## **Usage ai Lucky Bar - Chat GPT**
+## **Usage ai Lucky Bar - OpenAI Dall-E**
 
-Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initialize Remix Online IDE.  Then load the application from the project folder where you've installed the application:
+Currently, the code for ai_nft_maker.ipynb runs locally on a Jupyter Lab notebook.
+Press run all cells, and when getting to the user prompts, just type a response and press enter.
+The ai generated images with get exported to the nft_stores.csv file.
+
+These are the user prompts: 
+
+Please keep in mind that “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta versions, restaurants will be able to buy ownership of the NFTs they create.
+
+
+## **Usage ai Lucky Bar - OpenAI DaVinci-002**
+
+Currently, this Streamlit code can only run locally due to API free tier limitations. To initialize the Streamlit, once having navigated to the folder ai_luckybar, run in the terminal: 
 
 ```python
-initiate the Solidity Compiler
+streamlit run ai_bartender.py
 ```
 
-In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment
-```python
-Deploy & Run Transactions 
-```
+Restaurant customers can press a button to get an NFT from the restaurant's nft_stores.csv.
 
-In the Remix IDE, Click the Deploy button to deploy the smart contract
-```python
-Deploy 
-```
-___
+
+After, the customer can chat with the AI and get a funny response. To make an order, the user inputs in the textbox as shown below.
 
 ---
 ## **Usage**
