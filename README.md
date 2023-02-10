@@ -244,6 +244,8 @@ ___
 
 [opensea](https://opensea.io/collection/flyfish-club/activity)  Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant.
 
+[AI image ownership](https://www.findlaw.com/legalblogs/legally-weird/who-owns-dall-e-images/)  Can anyone own AI generated images?  If so, who?
+
 [typing](https://docs.python.org/3/library/typing.html)  Support for type hints.
 
 ## **License**
