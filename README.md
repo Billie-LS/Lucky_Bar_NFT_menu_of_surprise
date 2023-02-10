@@ -17,24 +17,9 @@ Product -
  
 ![NFTs](images/NFTs.png)
 
-### Product 
+### Product **Fair.xyz Proof of Concept**
 
-
-Initial compile & deploy
-![compile&deploy](Execution_Results/compile_deploy.png)
-Depositing one Ether as wei
-![one_as_wei](Execution_Results/one_eth_as_wei.png)
-Depositing ten Ether as wei
-![ten_as_wei](Execution_Results/ten_eth_as_wei.png)
-Depositing five Ether
-![five_ether](Execution_Results/five_ether.png)
-Set Account1 and Account2
-![set_accounts](Execution_Results/set_accounts_one_two.png)
-Withdrawing five ether to Account1
-![five_for_one_A](Execution_Results/five_eth_account_one1.png)
-![five_for_one_B](Execution_Results/five_eth_account_one2.png)
-Withdrawing ten ether to Account2
-![ten_for_two](Execution_Results/ten_eth_account_two.png)
+[Lucky Bar](https://fair.xyz/collection/luckybar) 
 ___
 
 ## **Technologies**
