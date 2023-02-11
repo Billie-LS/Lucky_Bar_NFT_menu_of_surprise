@@ -15,6 +15,12 @@ The proof of concept of LuckyBar prototype can be seen here.
 
 ___
 
+## LuckyBar Raffle Menu - Customer View
+
+![NFTs](images/NFTs.png)
+
+---
+
 **Required Tools:**
 
 The Solidity program is compiled and deployed over the Ethereum blockchain based sandbox environments called 'Remix VM (London)' and 'Injected Provider - MetaMask', which was previously called as Javascript VM. It will simulate the blockchain transactions defined in the smart contract.
@@ -122,7 +128,7 @@ The url leads to this image for this example:
 ---
 ## LuckyBar Raffle Menu - Customer View
 
-![NFTs](Images/product/NFTs.png)
+![NFTs](images/NFTs.png)
 
 ---
 ## **Usage of AI Lucky Bar - OpenAI DaVinci-002**
