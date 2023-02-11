@@ -1,19 +1,17 @@
 # **Lucky Bar NFT menu of surprise!**
-![pinacolada](images/header.png)
+![pinacolada](Images/product/header.png)
 
 ## Overview
 
 LuckyBar is a software company which offers NFT raffle tickets to the restaurant owners in a Software-as-a-Service busines model. It offers its NFT based raffle tickets to restaurant marketplace. The restaurant business owners can further target fancy NFT raffle tickets to their customers. Each raffle ticket may have some menu items in surprise along with the main purchase order at restaurants. It is a unique way of providing dining experience to customers who may not just enjoy additional restaurant menu items in surprise but also own NFT collections!
 
-## Product ***Fair.xyz Proof of Concept***
-
-Click here to see the product prototype.
+The proof of concept of LuckyBar prototype can be seen here.
 
 - [Lucky Bar](https://fair.xyz/collection/luckybar)
 
 **LuckyBar Logo**
 
-<img src="images/luckyrafleticket.png" width="300">
+<img src="Images/product/luckyrafleticket.png" width="300">
 
 ___
 
@@ -92,9 +90,6 @@ Python Platform: macOS-13.0.1-arm64-arm-64bit
 
 pip 22.3 from /opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
 
-
-Version Control: git version 2.37.2
-
 ---
 ## *Installation of application (i.e. github clone)*
 
@@ -105,7 +100,7 @@ git clone git@github.com:Billie-LS/Lucky_Bar_NFT_menu_of_surprise.git
 ```
 
 ---
-## **Usage AI Lucky Bar - OpenAI Dall-E**
+## **Usage of AI Lucky Bar - OpenAI Dall-E**
 
 Currently, the code for ai_nft_maker.ipynb runs locally on a JupyterLab Notebook.
 Press run all cells, and when getting to the user prompts, just type a response and press enter.
@@ -113,24 +108,24 @@ The AI generated images get exported to the nft_stores.csv repository.
 
 These are the user prompts: 
 
-<img src="images/user_input_dalle.png" width="500">
+<img src="Images/openai/user_input_dalle.png" width="500">
 
 
 After answering the prompts, the AI generated image will be stored in the nft_stores.csv file in the same folder.
 
 The url leads to this image for this example:
 
-<img src="images/ai_generated_image.png" width="500">
+<img src="Images/openai/ai_generated_image.png" width="500">
 
 ***Note:*** “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta version, we can assume restaurants will be able to buy ownership of the NFTs they create.
 
 ---
 ## LuckyBar Raffle Menu - Customer View
 
-![NFTs](images/NFTs.png)
+![NFTs](Images/product/NFTs.png)
 
 ---
-## **Usage AI Lucky Bar - OpenAI DaVinci-002**
+## **Usage of AI Lucky Bar - OpenAI DaVinci-002**
 
 Currently, Streamlit code can only run locally due to API free tier limitations. To initialize the Streamlit, once having navigated to the folder ai_luckybar, run in the terminal: 
 
@@ -140,46 +135,29 @@ streamlit run ai_bartender.py
 
 |Scenario: Restaurant customers can press a button to get an NFT from the restaurant's nft_stores.csv.|
 |:-:|
-|![Step 1](images/buttonclick.png.png)|
+|![Step 1](Images/openai/buttonclick.png)|
 
 ---
 
 |Scenario: OpenAI generated NFT image|
 |:-:|
-|![Step 2](images/ai_image_streamlit.png)|
+|![Step 2](Images/openai/ai_image_streamlit.png)|
 
 ---
 
 |Scenario: Then, the customer can chat with the AI and get a funny response. To make an order, the user inputs in the textbox as shown below.|
 |:-:|
-|![Step 3](images/user_order_ai.png)|
+|![Step 3](Images/openai/user_order_ai.png)|
 
 ---
 
-## **Usage**
-
-Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initialize Remix Online IDE.  Then load the application from the project folder where you've installed the application:
-
-```python
-initiate the Solidity Compiler
-```
-
-In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment
-```python
-Deploy & Run Transactions 
-```
-
-In the Remix IDE, Click the Deploy button to deploy the smart contract
-```python
-Deploy 
-```
-___
+## **Usage of LuckyBar**
 
 To use the smart contract, follow the key steps described as below:
 
-- Clone the repository and load ***SOMETHING*** and ***SOMETHING.sol*** in Remix IDE. You may see the web console view as:
+- Clone the repository and load ***artwork.sol*** in Remix IDE. You may see the web console view as:
 
-![Smart Contract](Images/App_Usage.png)
+![Smart Contract](Images/luckybar/AppUsage.png)
 
 - While deploying, select Remix VM (London) as a sandbox environment.
 
@@ -187,24 +165,57 @@ To use the smart contract, follow the key steps described as below:
 
 - In order to integrate Remix IDE with MetaMask and MetaMask with Ganache, you may an article [here](https://www.geeksforgeeks.org/how-to-set-up-ganche-with-metamask/).
 
-- Choose 'Injected Provider - MetaMask' as a sandbox blockchain Environment to connect Remix IDE with MetaMask. 
+- Choose 'Injected Provider - MetaMask' as a sandbox blockchain Environment to connect Remix IDE with MetaMask.
+- Make sure to import at least two accounts in MetaMask by connecting it to Ganache local network. You may simulate one account address for seller and other for buyer respectively.
 
-## **Version control**
 
-Version control can be reviewed at:
+___
 
-```python
-https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise
-```
+## Evaluation Evidence: ArtToken Minting, Deployment, Register, Approve and Transfer
 
-[repository](https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise)
+**Note:** Take note of 'At Address' field values when deploying the contract *.sol files.
 
+|Scenario: Contract Deployment|
+|:-:|
+|![Step 1](Images/luckybar/ContractDeployment.png)|
+
+---
+
+|Scenario: Ganache Contract Mined|
+|:-:|
+|![Step 2](Images/luckybar/GanacheContractMined.png)|
+
+---
+
+|Scenario: Register Token|
+|:-:|
+|![Step 3](Images/luckybar/RegisterToken.png)|
+
+---
+
+|Scenario: Token Approve|
+|:-:|
+|![Step 4](Images/luckybar/TokenApprove.png)|
+
+---
+
+|Scenario: Token Transfer|
+|:-:|
+|![Step 5](Images/luckybar/TransferToken.png)|
+
+---
+
+|Scenario: Purchased Token|
+|:-:|
+|![Step 6](Images/luckybar/PurchasedToken.png)|
+
+---
 ___
 
 # **Columbia Engineering FinTech Boot Camp - August 2022 Cohort Capstone** 
 ### **Contributors**
 
-![contributors](images/contributors.png)
+![contributors](Images/product/contributors.png)
 
 Loki 'billie' Skylizard
     [LinkedIn](https://www.linkedin.com/in/l-s-6a0316244)
@@ -247,9 +258,11 @@ ___
 
 [opensea](https://opensea.io/collection/flyfish-club/activity)  Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant.
 
-[AI image ownership](https://www.findlaw.com/legalblogs/legally-weird/who-owns-dall-e-images/)  Can anyone own AI generated images?  If so, who?
-
 [typing](https://docs.python.org/3/library/typing.html)  Support for type hints.
+
+### **Disclaimer**
+
+[Open AI Generated Images and NFT URIs](https://www.findlaw.com/legalblogs/legally-weird/who-owns-dall-e-images/) - Refer to the article here to understand the ownership of digital images. For the project idea and demonstration, OpenAI has been used to generate NFT URIs. Such URIs are expiring in nature, thus making it less feasible for any commercial use. The ownership of such digital artworks may be subject to the contract bindings and usage provision of intellectual property as mandated by OpenAI itself.
 
 ___
 
@@ -259,20 +272,13 @@ MIT License
 
 Copyright (c) [2022] [Dinesh Mandal, Loki 'billie' Skylizard, Galiya Khusniyarova, Alexandra Paiz, Brock Denton]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
