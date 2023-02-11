@@ -3,7 +3,6 @@
 #NFT, retrieved from the nft_stores.cvs file which contains the NFTS which the restaurant created. AFter, the user can caht with the bartender and place an order.
 #We made our bartender to be very sassy, but the idea is that resaturants can personalize their bartenders by vhanging the prompt.
 
-
 #Import required dependencies
 import os 
 import requests 
