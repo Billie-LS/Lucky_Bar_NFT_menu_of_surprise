@@ -17,6 +17,12 @@ Click here to see the product prototype.
 
 ___
 
+## LuckyBar Raffle Menu - Customer View
+
+![NFTs](images/NFTs.png)
+
+---
+
 **Required Tools:**
 
 The Solidity program is compiled and deployed over the Ethereum blockchain based sandbox environments called 'Remix VM (London)' and 'Injected Provider - MetaMask', which was previously called as Javascript VM. It will simulate the blockchain transactions defined in the smart contract.
