@@ -13,6 +13,10 @@ The proof of concept of LuckyBar prototype can be seen here.
 
 <img src="Images/product/luckyrafleticket.png" width="300">
 
+
+**LuckyBar Potential NFT Rewards**
+
+![NFTs](Images/product/NFTs.png)
 ___
 
 **Required Tools:**
@@ -26,6 +30,7 @@ Use the following tools to compile and deploy the program to test.
 * [Ganache](https://trufflesuite.com/ganache/) - Quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
 * [MetaMask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps.
 * [streamlit](https://pypi.org/project/streamlit/) - An all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
+* [Jupyter Notebook](https://jupyter.org/) - To run AI LuckyBar program to interact with OpenAI service endpoint.
 
 **Dependencies**
 
@@ -88,11 +93,6 @@ One sample of such AI generated digital artwork:
 <img src="Images/openai/ai_generated_image.png" width="500">
 
 ***Note:*** “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.” However in OpenAI beta version, we can assume restaurant owners will be able to buy ownership of the NFTs they create.
-
----
-## **LuckyBar Raffle Menu - Customer View**
-
-![NFTs](Images/product/NFTs.png)
 
 ---
 ## **Usage of AI Lucky Bar - OpenAI DaVinci-002**
