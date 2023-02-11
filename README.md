@@ -1,4 +1,4 @@
-# **Lucky Bar NFT menu of surprise!**
+# **Lucky Bar NFT - Menu of Surprise!**
 ![pinacolada](Images/product/header.png)
 
 ## Overview
@@ -14,12 +14,6 @@ The proof of concept of LuckyBar prototype can be seen here.
 <img src="Images/product/luckyrafleticket.png" width="300">
 
 ___
-
-## LuckyBar Raffle Menu - Customer View
-
-![NFTs](images/NFTs.png)
-
----
 
 **Required Tools:**
 
@@ -70,65 +64,35 @@ The project leverages Python version 3.9.13 packaged by conda-forge | (main, May
 * [Ethereum Smart Contract](https://ethereum.org/en/smart-contracts/) - A "smart contract" is simply a program that runs on the Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
 * [ERC721](https://eips.ethereum.org/EIPS/eip-721) - The ERC-721 is a standard for representing ownership of non-fungible tokens.
 * [OpenZeppelin](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) - This set of interfaces, contracts, and utilities are all related to the ERC721 Non-Fungible Token Standard.
-
-___
-
-### **Hardware used for development**
-
-MacBook Pro (16-inch, 2021)
-
-    Chip Appple M1 Max
-    macOS Venture version 13.0.1
-
-### **Development Software**
-
-Homebrew 3.6.11
-
-    Homebrew/homebrew-core (git revision 01c7234a8be; last commit 2022-11-15)
-    Homebrew/homebrew-cask (git revision b177dd4992; last commit 2022-11-15)
-
-Python Platform: macOS-13.0.1-arm64-arm-64bit
-
-    Python version 3.9.15 packaged by conda-forge | (main, Nov 22 2022, 08:52:10)
-    Scikit-Learn 1.1.3
-    pandas 1.5.1
-    Numpy 1.21.5
-
-pip 22.3 from /opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
+* [OpenAI API](https://platform.openai.com/docs/introduction) - The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code.
 
 ---
-## *Installation of application (i.e. github clone)*
+## **Application Usage Guide**
 
-In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
+The project has tow major components: AI LuckyBar and LuckyBar.
+- 'AI LuckyBar' is used to generate conversational experience to the customers when placing of the menu orders. Likewise, it is used by the restuarnat owner to generate NFT Artworks based on season and other promotional events.
+- 'LuckyBar' is used to register the NFT and allow customers to purchase NFTs.
 
-```python
-git clone git@github.com:Billie-LS/Lucky_Bar_NFT_menu_of_surprise.git
-```
-
----
 ## **Usage of AI Lucky Bar - OpenAI Dall-E**
 
-Currently, the code for ai_nft_maker.ipynb runs locally on a JupyterLab Notebook.
-Press run all cells, and when getting to the user prompts, just type a response and press enter.
-The AI generated images get exported to the nft_stores.csv repository.
+Currently, the code for ai_nft_maker.ipynb runs locally on a JupyterLab Notebook. Press run all cells, and when getting to the user prompts, just type a response and press enter. The AI generated images get exported to the nft_stores.csv repository.
 
-These are the user prompts: 
+These are the user prompts to provide hints: 
 
 <img src="Images/openai/user_input_dalle.png" width="500">
 
-
 After answering the prompts, the AI generated image will be stored in the nft_stores.csv file in the same folder.
 
-The url leads to this image for this example:
+One sample of such AI generated digital artwork:
 
 <img src="Images/openai/ai_generated_image.png" width="500">
 
-***Note:*** “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta version, we can assume restaurants will be able to buy ownership of the NFTs they create.
+***Note:*** “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.” However in OpenAI beta version, we can assume restaurant owners will be able to buy ownership of the NFTs they create.
 
 ---
-## LuckyBar Raffle Menu - Customer View
+## **LuckyBar Raffle Menu - Customer View**
 
-![NFTs](images/NFTs.png)
+![NFTs](Images/product/NFTs.png)
 
 ---
 ## **Usage of AI Lucky Bar - OpenAI DaVinci-002**
@@ -156,7 +120,6 @@ streamlit run ai_bartender.py
 |![Step 3](Images/openai/user_order_ai.png)|
 
 ---
-
 ## **Usage of LuckyBar**
 
 To use the smart contract, follow the key steps described as below:
@@ -174,6 +137,7 @@ To use the smart contract, follow the key steps described as below:
 - Choose 'Injected Provider - MetaMask' as a sandbox blockchain Environment to connect Remix IDE with MetaMask.
 - Make sure to import at least two accounts in MetaMask by connecting it to Ganache local network. You may simulate one account address for seller and other for buyer respectively.
 
+- LuckyBar has two main Python files: ***register.py*** and ***lucky.py***. From the Git Bash, run 'streamlit run register.py' to launch the web page of NFT Registration on Streamlit. Likewise, run 'streamlit run lucky.py' to launch the web page of NFT Purchase on Streamlit.
 
 ___
 
@@ -223,23 +187,23 @@ ___
 
 ![contributors](Images/product/contributors.png)
 
-Loki 'billie' Skylizard
+- Loki 'billie' Skylizard
     [LinkedIn](https://www.linkedin.com/in/l-s-6a0316244)
     [@GitHub](https://github.com/Billie-LS)
 
-Alexandra Paiz
+- Alexandra Paiz
     [LinkedIn](https://www.linkedin.com/in/alexandra-paiz-5b28b6241/)
     [@GitHub](https://github.com/alexandrapaiz)
 
-Dinesh Mandal
+- Dinesh Mandal
     [LinkedIn](https://www.linkedin.com/in/dineshmandal/)
     [@GitHub](https://github.com/dinesh-m)
 
-Galiya Khusniyarova
+- Galiya Khusniyarova
     [LinkedIn](https://www.linkedin.com/in/galiya-khusniyarova-3470a6110/)
     [@GitHub](https://github.com/galiyaKhusniyarova)
 
-Brock Denton
+- Brock Denton
     [LinkedIn](https://www.linkedin.com/in/brock-denton-7850221a7/)
     [@GitHub](https://github.com/Brock-Denton)
 
@@ -247,28 +211,26 @@ ___
 
 ### **BootCamp Lead Instructor**
 
-Vinicio De Sola
+- Vinicio De Sola
     [LinkedIn](https://www.linkedin.com/in/vinicio-desola-jr86/)
     [@GitHub](https://github.com/penpen86)
 
-
 ### **BootCamp Teaching Assistant**
 
-Santiago Pedemonte
+- Santiago Pedemonte
     [LinkedIn](https://www.linkedin.com/in/s-pedemonte/)
     [@GitHub](https://github.com/Santiago-Pedemonte)
-
 ___
 
-### **Additional references and or resources utilized**
+### **Additional References**
 
-[opensea](https://opensea.io/collection/flyfish-club/activity)  Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant.
+- [opensea](https://opensea.io/collection/flyfish-club/activity)  Flyfish Club (FFC) private dining club; membership is purchased as a Non-Fungible-Token (NFT) to gain access to our restaurant.
 
-[typing](https://docs.python.org/3/library/typing.html)  Support for type hints.
+- [typing](https://docs.python.org/3/library/typing.html)  Support for type hints.
 
 ### **Disclaimer**
 
-[Open AI Generated Images and NFT URIs](https://www.findlaw.com/legalblogs/legally-weird/who-owns-dall-e-images/) - Refer to the article here to understand the ownership of digital images. For the project idea and demonstration, OpenAI has been used to generate NFT URIs. Such URIs are expiring in nature, thus making it less feasible for any commercial use. The ownership of such digital artworks may be subject to the contract bindings and usage provision of intellectual property as mandated by OpenAI itself.
+[Open AI Generated Images and NFT URIs](https://www.findlaw.com/legalblogs/legally-weird/who-owns-dall-e-images/) - Refer to the article here to understand the ownership of digital images. For the purpose of project idea and demonstration, OpenAI has been used to generate NFT URIs. Such URIs are expiring in nature, thus making it less feasible for any commercial use. The ownership of such digital artworks may be subject to the contract bindings and usage provision of intellectual property as mandated by OpenAI itself.
 
 ___
 
