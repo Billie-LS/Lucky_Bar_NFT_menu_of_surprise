@@ -191,6 +191,8 @@ ___
 
 ### **Contributors**
 
+![pinacolada](images/contributors.png)
+
 Dinesh Mandal
     [LinkedIn](https://www.linkedin.com/in/dineshmandal/)
     [@GitHub](https://github.com/dinesh-m)
