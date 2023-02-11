@@ -131,11 +131,6 @@ The url leads to this image for this example:
 ***Note:*** “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta version, we can assume restaurants will be able to buy ownership of the NFTs they create.
 
 ---
-## LuckyBar Raffle Menu - Customer View
-
-![NFTs](images/NFTs.png)
-
----
 ## **Usage AI Lucky Bar - OpenAI DaVinci-002**
 
 Currently, Streamlit code can only run locally due to API free tier limitations. To initialize the Streamlit, once having navigated to the folder ai_luckybar, run in the terminal: 
