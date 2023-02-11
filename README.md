@@ -193,26 +193,27 @@ ___
 
 ![contributors](images/contributors.png)
 
-Dinesh Mandal
-    [LinkedIn](https://www.linkedin.com/in/dineshmandal/)
-    [@GitHub](https://github.com/dinesh-m)
-
 Loki 'billie' Skylizard
     [LinkedIn](https://www.linkedin.com/in/l-s-6a0316244)
     [@GitHub](https://github.com/Billie-LS)
-
-Galiya Khusniyarova
-    [LinkedIn](https://www.linkedin.com/in/galiya-khusniyarova-3470a6110/)
-    [@GitHub](https://github.com/galiyaKhusniyarova)
 
 Alexandra Paiz
     [LinkedIn](https://www.linkedin.com/in/alexandra-paiz-5b28b6241/)
     [@GitHub](https://github.com/alexandrapaiz)
 
+Dinesh Mandal
+    [LinkedIn](https://www.linkedin.com/in/dineshmandal/)
+    [@GitHub](https://github.com/dinesh-m)
+
+Galiya Khusniyarova
+    [LinkedIn](https://www.linkedin.com/in/galiya-khusniyarova-3470a6110/)
+    [@GitHub](https://github.com/galiyaKhusniyarova)
+
 Brock Denton
     [LinkedIn](https://www.linkedin.com/in/brock-denton-7850221a7/)
     [@GitHub](https://github.com/Brock-Denton)
 
+___
 
 ### **BootCamp lead instructor**
 
