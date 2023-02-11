@@ -1,33 +1,37 @@
 # **Lucky Bar NFT menu of surprise!**
 ![pinacolada](images/header.png)
-# **Columbia University Engineering, New York FinTech Bootcamp - August 2022 Cohort Capstone** 
 
+## Overview
+
+LuckyBar is a software company which offers NFT raffle tickets to the restaurant owners in a Software-as-a-Service busines model. It offers its NFT based raffle tickets to restaurant marketplace. The restaurant business owners can further target fancy NFT raffle tickets to their customers. Each raffle ticket may have some menu items in surprise along with the main purchase order at restaurants. It is a unique way of providing dining experience to customers who may not just enjoy additional restaurant menu items in surprise but also own NFT collections!
+
+## Product ***Fair.xyz Proof of Concept***
+
+Click here to see the product prototype.
+
+- [Lucky Bar](https://fair.xyz/collection/luckybar)
+
+**LuckyBar Logo**
 
 <img src="images/luckyrafleticket.png" width="300">
 
-Objective -  
-
-Scenario - 
-
-Product -  
->  
->  
-> 
-
- 
-![NFTs](images/NFTs.png)
-
-### Product **Fair.xyz Proof of Concept**
-
-[Lucky Bar](https://fair.xyz/collection/luckybar) 
 ___
 
-## **Technologies**
-___
+**Required Tools:**
 
-### **Dependencies & Applications**
+The Solidity program is compiled and deployed over the Ethereum blockchain based sandbox environments called 'Remix VM (London)' and 'Injected Provider - MetaMask', which was previously called as Javascript VM. It will simulate the blockchain transactions defined in the smart contract.
 
-This project leverages Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with Solidity and the following packages to compile and deploy the decentralized application (dapp):
+Use the following tools to compile and deploy the program to test.
+
+* [Remix Ethereum IDE](https://remix-project.org/) - Remix IDE, is a no-setup tool with a GUI for developing smart contracts.
+* [Ethereum Unit Converter](https://eth-converter.com/) - Ether to Wei unit convertor.
+* [Ganache](https://trufflesuite.com/ganache/) - Quickly fire up a personal Ethereum blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
+* [MetaMask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps.
+* [streamlit](https://pypi.org/project/streamlit/) - An all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
+
+**Dependencies**
+
+The project leverages Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with Solidity and the following packages to compile, run and test the decentralized application (dApp):
 
 * [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
 
@@ -55,17 +59,14 @@ This project leverages Python version 3.9.13 packaged by conda-forge | (main, Ma
 
 * [Random](https://docs.python.org/3/library/random.html) - a module in Python defines a series of functions for generating or manipulating random integers. Python random() is a pseudo-random number generator function that generates a random float number between 0.0 and 1.0, is used by functions in the random module.
 
-* [Remix Ethereum IDE](https://remix-project.org/) - Remix IDE, is a no-setup tool with a GUI for developing smart contracts.
-
-* [Ganache](https://trufflesuite.com/ganache/) - a private Ethereum(ETH) blockchain environment that enables emulation of the ETH blockchain to interact with smart contracts in a private blockchain
-
-* [MetaMask](https://metamask.io/) - a software cryptocurrency self-custodial wallet and gateway to interact with the Ethereum(ETH) blockchain and ETH blockchain decentralized applications(dapps).
-
-* [streamlit](https://pypi.org/project/streamlit/) - an all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
-  
-* [OpenZeppelin](https://www.openzeppelin.com/contracts) - an open-source framework to build secure smart contracts; provides security products to build, automate, and operate decentralized applications.
-
 * [Fair.xyz](https://fair.xyz/) - a platform which provides complete blockchain contracting, NFT collection homepage, minting integration, on-chain deployment, pre-sale access, metadata generation, marketplace royalties, reveal experience and allowlists.
+
+**References:**
+
+* [Ethereum Smart Contract](https://ethereum.org/en/smart-contracts/) - A "smart contract" is simply a program that runs on the Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
+* [ERC721](https://eips.ethereum.org/EIPS/eip-721) - The ERC-721 is a standard for representing ownership of non-fungible tokens.
+* [OpenZeppelin](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) - This set of interfaces, contracts, and utilities are all related to the ERC721 Non-Fungible Token Standard.
+
 ___
 
 ### **Hardware used for development**
@@ -92,7 +93,7 @@ Python Platform: macOS-13.0.1-arm64-arm-64bit
 pip 22.3 from /opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
 
 
-git version 2.37.2
+Version Control: git version 2.37.2
 
 ---
 ## *Installation of application (i.e. github clone)*
@@ -104,45 +105,57 @@ git clone git@github.com:Billie-LS/Lucky_Bar_NFT_menu_of_surprise.git
 ```
 
 ---
-## **Usage ai Lucky Bar - OpenAI Dall-E**
+## **Usage AI Lucky Bar - OpenAI Dall-E**
 
-Currently, the code for ai_nft_maker.ipynb runs locally on a Jupyter Lab notebook.
+Currently, the code for ai_nft_maker.ipynb runs locally on a JupyterLab Notebook.
 Press run all cells, and when getting to the user prompts, just type a response and press enter.
-The ai generated images with get exported to the nft_stores.csv file.
+The AI generated images get exported to the nft_stores.csv repository.
 
 These are the user prompts: 
 
 <img src="images/user_input_dalle.png" width="500">
 
 
-After answeing the prompts, the AI generated image will be stored in the nft_stores.csv file in the same folder.
+After answering the prompts, the AI generated image will be stored in the nft_stores.csv file in the same folder.
 
 The url leads to this image for this example:
 
 <img src="images/ai_generated_image.png" width="500">
 
-Please keep in mind that “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta versions, restaurants will be able to buy ownership of the NFTs they create.
+***Note:*** “OpenAI retains ownership of the original image primarily so that we can better enforce our content policy.”  However in Beta version, we can assume restaurants will be able to buy ownership of the NFTs they create.
 
+---
+## LuckyBar Raffle Menu - Customer View
 
-## **Usage ai Lucky Bar - OpenAI DaVinci-002**
+![NFTs](images/NFTs.png)
 
-Currently, this Streamlit code can only run locally due to API free tier limitations. To initialize the Streamlit, once having navigated to the folder ai_luckybar, run in the terminal: 
+---
+## **Usage AI Lucky Bar - OpenAI DaVinci-002**
+
+Currently, Streamlit code can only run locally due to API free tier limitations. To initialize the Streamlit, once having navigated to the folder ai_luckybar, run in the terminal: 
 
 ```python
 streamlit run ai_bartender.py
 ```
 
-Restaurant customers can press a button to get an NFT from the restaurant's nft_stores.csv.
-
-<img src="images/buttonclick.png" width="500">
-<img src="images/ai_image_streamlit.png" width="500">
-
-
-After, the customer can chat with the AI and get a funny response. To make an order, the user inputs in the textbox as shown below.
-<img src="images/user_order_ai.png" width="500">
-
+|Scenario: Restaurant customers can press a button to get an NFT from the restaurant's nft_stores.csv.|
+|:-:|
+|![Step 1](images/buttonclick.png.png)|
 
 ---
+
+|Scenario: OpenAI generated NFT image|
+|:-:|
+|![Step 2](images/ai_image_streamlit.png)|
+
+---
+
+|Scenario: Then, the customer can chat with the AI and get a funny response. To make an order, the user inputs in the textbox as shown below.|
+|:-:|
+|![Step 3](images/user_order_ai.png)|
+
+---
+
 ## **Usage**
 
 Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initialize Remix Online IDE.  Then load the application from the project folder where you've installed the application:
@@ -186,9 +199,9 @@ https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise
 
 [repository](https://github.com/Billie-LS/Lucky_Bar_NFT_menu_of_surprise)
 
-
 ___
 
+# **Columbia Engineering FinTech Boot Camp - August 2022 Cohort Capstone** 
 ### **Contributors**
 
 ![contributors](images/contributors.png)
@@ -215,14 +228,14 @@ Brock Denton
 
 ___
 
-### **BootCamp lead instructor**
+### **BootCamp Lead Instructor**
 
 Vinicio De Sola
     [LinkedIn](https://www.linkedin.com/in/vinicio-desola-jr86/)
     [@GitHub](https://github.com/penpen86)
 
 
-### **BootCamp teaching assistant**
+### **BootCamp Teaching Assistant**
 
 Santiago Pedemonte
     [LinkedIn](https://www.linkedin.com/in/s-pedemonte/)
@@ -263,6 +276,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
