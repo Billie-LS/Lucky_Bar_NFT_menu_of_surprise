@@ -139,6 +139,9 @@ To use the smart contract, follow the key steps described as below:
 
 - LuckyBar has two main Python files: ***register.py*** and ***lucky.py***. From the Git Bash, run 'streamlit run register.py' to launch the web page of NFT Registration on Streamlit. Likewise, run 'streamlit run lucky.py' to launch the web page of NFT Purchase on Streamlit.
 
+
+***Note:*** You may need to update 'SAMPLE.env' for Ganache local host URL and artwork.sol contract address to connect Remix IDE, Streamlit, MetaMask and Ganache instances.
+
 ___
 
 ## Evaluation Evidence: ArtToken Minting, Deployment, Register, Approve and Transfer
