@@ -183,6 +183,8 @@ ___
 |![Step 6](Images/luckybar/PurchasedToken.png)|
 
 ---
+
+***Note***: The 'artwork' contract ABI specification can be referenced from [here](LuckyBar/contracts/artwork.sol).
 ___
 
 # **Columbia Engineering FinTech Boot Camp - August 2022 Cohort Capstone** 

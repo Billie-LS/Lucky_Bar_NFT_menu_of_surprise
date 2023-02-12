@@ -5,7 +5,6 @@ import nft
 from web3 import Web3
 from pathlib import Path
 from dotenv import load_dotenv
-from typing import Dict, List, Tuple
 
 
 ################################################################################
@@ -16,7 +15,7 @@ from typing import Dict, List, Tuple
 load_dotenv()
 
 # Define and connect a new Web3 provider
-w3: Web3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
+w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 
 ################################################################################
 # Contract Helper function:
@@ -24,13 +23,13 @@ w3: Web3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 
 
 @st.cache(allow_output_mutation=True)
-def load_contract() -> 'w3.eth.contract':
+def load_contract():
 
     # Load the contract ABI
     with open(Path('./contracts/compiled/artwork_abi.json')) as f:
-        artwork_abi: dict = json.load(f)
+        artwork_abi = json.load(f)
 
-    contract_address: str = os.getenv("SMART_CONTRACT_ADDRESS")
+    contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
 
     # Load the contract
     contract = w3.eth.contract(
@@ -43,10 +42,10 @@ def load_contract() -> 'w3.eth.contract':
 contract = load_contract()
 
 # Read accounts from Ganache instance
-accounts: List[str] = w3.eth.accounts
+accounts = w3.eth.accounts
 
 @st.cache(allow_output_mutation=True)
-def nft_options() -> tuple[List[int], List[str]]:
+def nft_options():
     df = nft.nft_df()
     values = df['nft_uri'].tolist()
     options = df['nft_id'].tolist()
@@ -61,32 +60,32 @@ st.markdown("---")
 st.markdown("## Register NFT Artworks")
 
 # Use a streamlit component to get the address of the artwork owner from the user
-owner_address: str = st.selectbox("Select NFT Owner", options=accounts)
+owner_address = st.selectbox("Select NFT Owner Address", options=accounts)
 
 # Fetch nft uri and id list
 options, values = nft_options()
 dic = dict(zip(options, values))
 
-nft_uri_id: int = st.selectbox('Select NFT URI:', options, format_func=lambda x: dic[x])
+nft_uri_id = st.selectbox('Select NFT URI:', options, format_func=lambda x: dic[x])
 # NFT artwork preview
 st.image(values[nft_uri_id - 1])
 
 # Get the NFT URI from nft_store.csv
-nftwork_uri: str = nft.nft_uri(nft_uri_id)
+nftwork_uri = nft.nft_uri(nft_uri_id)
 
 st.markdown("NFT Artwork URI")
 st.write(nftwork_uri)
 
 if st.button("Register Artwork"):
     # Use the contract to send a transaction to the registerArtwork function
-    tx_hash: str = contract.functions.registerArtwork(
+    tx_hash = contract.functions.registerArtwork(
         owner_address,
         nftwork_uri
     ).transact({'from': owner_address, 'gas': 1000000})
     receipt = w3.eth.waitForTransactionReceipt(tx_hash)
     st.write("Transaction receipt mined:")
     st.write(dict(receipt))
-
+    st.balloons()
 st.markdown("---")
 
 if st.button("Check NFT Balance"):
