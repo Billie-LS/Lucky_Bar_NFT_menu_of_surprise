@@ -184,7 +184,7 @@ ___
 
 ---
 
-***Note***: The 'artwork' contract ABI specification can be referenced from [here](LuckyBar/contracts/artwork.sol).
+***Note***: The 'artwork' contract ABI specification can be referenced from [here](LuckyBar/contracts/compiled/artwork_abi.json).
 ___
 
 # **Columbia Engineering FinTech Boot Camp - August 2022 Cohort Capstone** 
