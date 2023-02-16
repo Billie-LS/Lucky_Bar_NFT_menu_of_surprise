@@ -188,7 +188,7 @@ ___
 ___
 
 # **Columbia Engineering FinTech Boot Camp - August 2022 Cohort Capstone** 
-### **Contributors**
+### **Authors and acknowledgment**
 
 ![contributors](Images/product/contributors.png)
 
